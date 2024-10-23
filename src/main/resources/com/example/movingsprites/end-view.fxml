@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="end_scene" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.movingsprites.EndViewController">
+   <children>
+      <Label layoutX="158.0" layoutY="88.0" prefHeight="81.0" prefWidth="285.0" text="GAME OVER" textFill="WHITE">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreLabel" alignment="CENTER" layoutX="120.0" layoutY="169.0" prefHeight="34.0" prefWidth="362.0" text="0" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="118.0">
+         <font>
+            <Font name="Copperplate Gothic Light" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnExit" layoutX="266.0" layoutY="220.0" mnemonicParsing="false" onMouseClicked="#exitGame" opacity="0.62" text="EXIT" textAlignment="CENTER">
+         <font>
+            <Font name="Copperplate Gothic Light" size="19.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
